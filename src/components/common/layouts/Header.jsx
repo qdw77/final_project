@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Header_CSS.css'; 
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 // 이미지 import
 import introImage from '../../../assets/intro.png';
@@ -14,6 +14,11 @@ import vectorMenu from '../../../assets/Vector2.png';
 
 const Header = () => {
   const navigate = useNavigate(); 
+  const location = useLocation();
+
+  const isInfoPage = location.pathname === '/info';
+  const isHomePage = location.pathname === '/';
+
   return (
     <header className="header">
       <div className="logo">
