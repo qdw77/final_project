@@ -2,14 +2,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import InfoPage from './pages/InfoPage';
+import SimulationPage from './pages/SimulationPage';
+import ResultPage from './pages/ResultPage';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* 첫 페이지 = 루트(/) 주소에서 보일 컴포넌트 */}
+        {/* 주소 */}
         <Route path="/" element={<HomePage />} />
-        <Route path="/info" element={<InfoPage />} /> {/* 라우팅 추가 */}
+        <Route path="/info" element={<InfoPage />} />
+        <Route path="/simulate" element={<SimulationPage />} /> 
+        <Route path='/result' element={<ResultPage/>} />
       </Routes>
     </BrowserRouter>
   );

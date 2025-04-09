@@ -1,0 +1,158 @@
+.result-page-wrapper {
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  /* ─── 지도 + 시뮬 결과 ─── */
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .result-map-placeholder {
+    flex: 1.2;
+    background-color: #e0e0e0;
+    height: 350px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .simulation-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .result-stats {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .result-stats h3 {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+  }
+  
+  .donut-chart-placeholder {
+    background-color: #f0f0f0;
+    height: 160px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ─── 탄소 절감 ─── */
+  .carbon-section {
+    margin-top: 50px;
+  }
+  
+  .carbon-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #333;
+  }
+  
+  .carbon-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .carbon-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+  }
+  
+  .carbon-card {
+    background-color: #ffeaea;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    text-align: left;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .carbon-card.highlight {
+    background-color: #eaffea;
+    text-align: right;
+  }
+  
+  .carbon-card.large {
+    font-size: 1.5rem;
+    padding: 20px 24px;
+    flex: 0.8;
+  }
+  
+  .carbon-chart-placeholder {
+    margin-top: 24px;
+    background-color: #f4f4f4;
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ─── 미래 예측 ─── */
+  .future-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .future-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .line-chart-placeholder {
+    background-color: #e9f4ff;
+    height: 240px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ─── 나무 효과 ─── */
+  .tree-section {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .tree-text h2 {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    color: #245f2d;
+  }
+  
+  .tree-effect p {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .tree-image {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+    background: url('../../../assets/grassy_field.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  

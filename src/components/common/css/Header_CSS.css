@@ -27,7 +27,7 @@ html, body {
 }
 
 .logo img {
-  height: 20px; /* 로고 이미지 작게 */
+  height: 20px; 
   object-fit: contain;
 }
 
