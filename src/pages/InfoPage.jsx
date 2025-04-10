@@ -1,10 +1,8 @@
 import React from 'react';
-import Header from '../components/common/layouts/Header.jsx'; // 기존 Header 재사용
 import '../components/common/css/Info_CSS.css'
 const InfoPage = () => {
   return (
     <div className="info-container">
-      <Header />
       <div className="top-section">
         <div className="left-map">[ 지역별 전력 사용량 지도 ]</div>
         <div className="vertical-divider" />

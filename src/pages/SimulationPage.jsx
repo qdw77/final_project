@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../components/common/css/Simulation_CSS.css';
-import solarpanel1 from '../assets/solarpanel1.png';
-import solarpanel2 from '../assets/solarpanel2.png';
-import simulation_button from '../assets/simulation_button.png';
-import sunlight_btn from '../assets/sunlight_btn.png';
-import slide_btn from '../assets/slide_btn.png';
+import solarpanel1 from '../assets/SimulationPage/solarpanel1.png';
+import solarpanel2 from '../assets/SimulationPage/solarpanel2.png';
+import simulation_button from '../assets/SimulationPage/simulation_button.png';
+import sunlight_btn from '../assets/SimulationPage/sunlight_btn.png';
+import slide_btn from '../assets/SimulationPage/slide_btn.png';
 import { useNavigate } from 'react-router-dom'; // 페이지 이동 함수
 
 const SimulationPage = () => {
@@ -13,12 +13,10 @@ const SimulationPage = () => {
     const handleOpenPanel = () => setShowPanel(true);
     const handleClosePanel = () => setShowPanel(false);
     const navigate = useNavigate(); 
-
     const handleSlideToggle = () => setShowAddressSlide(!showAddressSlide); // 슬라이드 토글 함수
 
     return (
         <div className="simulation-container">
-
             <div className="simulation-body">
                 <div className="simulation-map-area fullscreen-map">
                     <div className="simulation-map-wrapper">

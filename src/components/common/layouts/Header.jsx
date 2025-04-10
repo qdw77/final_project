@@ -2,14 +2,14 @@ import React from 'react';
 import '../css/Header_CSS.css';
 
 // 이미지 import (src/assets 경로 기준)
-import icon from '../../../assets/Icon.png';
-import icon1 from '../../../assets/icon1.png';
-import intro from '../../../assets/intro.png';
-import vector2 from '../../../assets/Vector-2.png';
-import vector1 from '../../../assets/Vector-1.png';
-import vector from '../../../assets/Vector.png';
-import menu from '../../../assets/menu.png';
-import vector2b from '../../../assets/Vector2.png';
+import icon from '../../../assets/Header/Icon.png';
+import icon1 from '../../../assets/Header/Icon1_w.png';
+import intro from '../../../assets/Header/intro.png';
+import vector2 from '../../../assets/Header/Vector-2.png';
+import vector1 from '../../../assets/Header/Vector-1.png';
+import vector from '../../../assets/Header/Vector.png';
+import menu from '../../../assets/Header/menu.png';
+import vector2b from '../../../assets/Header/Vector2.png';
 
 const Header = () => {
   return (

@@ -1,11 +1,10 @@
 import React, { useRef } from 'react'; // React 선언 , useRef로 타겟지정
 import { useNavigate } from 'react-router-dom'; // 페이지 이동 함수
-import Header from '../components/common/layouts/Header.jsx'; // 상단바
 import '../components/common/css/HomePage_CSS.css'; // css
-import green_intro from '../assets/intro_green.png';
-import carbon_intro from '../assets/carbon_intro.png';
-import new_energy from '../assets/new_energy.png';
-import solar_power from '../assets/solar_power.png';
+import green_intro from '../assets/HomePage/intro_green.png';
+import carbon_intro from '../assets/HomePage/carbon_intro.png';
+import new_energy from '../assets/HomePage/new_energy.png';
+import solar_power from '../assets/HomePage/solar_power.png';
 
 
 const HomePage = () => {
@@ -19,8 +18,6 @@ const HomePage = () => {
 
   return (
     <div className="intro-container">
-      {/* 상단바 */}
-      <Header />
 
       {/* Section 1 탄소 중립*/}
       <section className="section" id="section1"> 
